@@ -26,7 +26,7 @@ public class HelloServlet extends HttpServlet {
         request.getServletContext();
         PrintWriter out = response.getWriter();
         out.println("<html><body>");
-                out.println("<h1>" + "Bienvenue" + " " + request.getParameter("prenom")+" "+ request.getParameter("nom").toUpperCase()+ " "+ "!" + "</h1>");
+        out.println("<h1>Bienvenue " + " " + request.getParameter("prenom")+" "+ request.getParameter("nom").toUpperCase()+ " "+ "! </h1>");
         out.println("</body></html>");
     }
 

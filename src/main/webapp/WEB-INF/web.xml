@@ -7,5 +7,4 @@
         <param-name>Titre</param-name>
         <param-value>Accueil</param-value>
     </context-param>
-
 </web-app>
